@@ -9,7 +9,7 @@
          </KeyInfo>
       </KeyDescriptor>
       <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
-      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-osso.herokuapp.com/saml-login"/>
-      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-osso.herokuapp.com/saml-login"/>
+      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bright-idp.herokuapp.com/saml-login"/>
+      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://bright-idp.herokuapp.com/saml-login"/>
    </IDPSSODescriptor>
 </EntityDescriptor>
